@@ -6,9 +6,7 @@ public class CarSpawned : MonoBehaviour
     private GameObject _prefab;
 
     private void Awake()
-{
-    
-        Instantiate(_prefab);
-        
+    {   
+        Instantiate(_prefab);//спавним прехаб машины  
     }
 }
